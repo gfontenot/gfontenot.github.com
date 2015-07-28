@@ -1,0 +1,96 @@
+body {
+  color: black;
+  font-size: 1.2em;
+  font-family: helvetica, sans-serif;
+  line-height: 1.56em;
+  margin: 0px auto 0px auto;
+  width: 720px;
+}
+
+a {
+  text-decoration: none;
+  color: #606060;
+}
+
+a:visited {
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#fname {
+  color: black;
+}
+
+#lname {
+  color: #696969;
+}
+
+header {
+  padding-top: 1em;
+  clear: both;
+}
+
+header h2 {
+  font-size: 2em;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+}
+
+header li {
+  display: inline;
+  font-size: 1.3em;
+  padding-left: .3em;
+}
+
+header li a {
+  color: black;
+}
+
+main {
+  margin-top: 1em;
+  border-top: 1px dotted black;
+}
+
+main li {
+  padding-top: 0.25em;
+}
+
+.timestamp {
+  display: inline-block;
+  min-width: 120px;
+  padding-top: .3em;
+  color: #999999;
+}
+
+.post-body {
+  padding-top: 0.75em;
+}
+
+.post-body h1 {
+  font-size: 2.3rem;
+}
+
+.post-body h2 {
+  font-size: 1.62em
+}
+
+.post-body p {
+  margin-top: 1.4em;
+}
+
+footer {
+  border-top: solid 2px black;
+  color: #555;
+  font-size: 1em;
+  margin-top: 30px;
+  padding: 12px 0px 12px 0px;
+  text-align: right;
+}
