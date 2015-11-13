@@ -57,6 +57,19 @@ img {
   max-width: 100%;
 }
 
+sup, sub {
+  margin-left: 3px;
+  font-size: .7em;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
 #content > :last-child {
   padding-bottom: 0;
 }
@@ -185,6 +198,26 @@ time {
 .post-body .tags {
   display: inline-block;
   font-size: 0.9em
+}
+
+.footnoteRef sup:before {
+  content: "["
+}
+
+.footnoteRef sup:after {
+  content: "]"
+}
+
+.footnotes {
+  color: #777;
+  font-size: .8em;
+}
+
+.footnotes hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 @media only screen
