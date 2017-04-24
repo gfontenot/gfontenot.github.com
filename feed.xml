@@ -8,8 +8,16 @@
         <name>Gordon Fontenot</name>
         <email>gordon@fonten.io</email>
     </author>
-    <updated>2017-02-24T00:00:00Z</updated>
+    <updated>2017-04-24T00:00:00Z</updated>
     <entry>
+    <title>Liftoff Spinoff</title>
+    <link href="https://robots.thoughtbot.com/liftoff-spinoff" />
+    <id>https://robots.thoughtbot.com/liftoff-spinoff</id>
+    <published>2017-04-24T00:00:00Z</published>
+    <updated>2017-04-24T00:00:00Z</updated>
+    <summary type="html"><![CDATA[]]></summary>
+</entry>
+<entry>
     <title>An iOS blogging workflow for static sites</title>
     <link href="http://gordonfontenot.com/blog/an-ios-blogging-workflow-for-static-sites" />
     <id>http://gordonfontenot.com/blog/an-ios-blogging-workflow-for-static-sites</id>
