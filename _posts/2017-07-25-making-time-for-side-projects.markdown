@@ -15,8 +15,11 @@ book or watching a run of a TV show, but you'll never finish that "small" tool
 you've been meaning to write. There will _always_ be something to improve,
 something to tweak, something to fix.
 
-[^1]: See this post by Good Friend And Awesome Person Gabe Berke-Williams:
-  [Move Your Goalposts](http://gabebw.com/blog/2015/01/14/move-your-goalposts)
+[^1]:
+    See this post by Good Friend And Awesome Person Gabe Berke-Williams: [Move
+    Your Goalposts]
+
+[Move Your Goalposts]: http://gabebw.com/blog/2015/01/14/move-your-goalposts
 
 I decided a while ago to write my own microblog. This "small" app was supposed
 to serve two different purposes:
@@ -55,11 +58,13 @@ spill over into the rest of the day, or the rest of the week. By limiting
 myself to this specific sliver of time, I hope to see myself be able to focus
 on my project when I need to, and ignore it during the rest of the week.
 
-[^2]: I firmly believe there's no such thing as "wasted" time, just time
-  that's spent with a different set of priorities. See the venerable Merlin
-  Mann's post [Mud Rooms, Red Letters, and Real
-  Priorities](http://www.43folders.com/2009/04/28/priorities) for more on
-  "priorities".
+[^2]:
+    I firmly believe there's no such thing as "wasted" time, just time
+    that's spent with a different set of priorities. See the venerable Merlin
+    Mann's post [Mud Rooms, Red Letters, and Real Priorities] for more on
+    "priorities".
+
+[Mud Rooms, Red Letters, and Real Priorities]: http://www.43folders.com/2009/04/28/priorities
 
 [dotfiles]: https://github.com/gfontenot/dotfiles
 [reflow]: https://github.com/gfontenot/reflow
