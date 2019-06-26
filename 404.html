@@ -1,51 +1,9 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html lang="en">
-<head>
-<title>404</title>
-<!-- <base href="http://gordonfontenot.com" /> -->
-<meta charset="utf-8" />
-<meta name="author" content="Gordon Fontenot" />
-<meta name="designer" content="Gordon Fontenot" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<h2>404</h2>
 
-<link href="/css/reset.css" rel="stylesheet" media="all" />
-<link href="/css/screen.css" rel="stylesheet" media="all" />
+<p>There doesn't seem to be anything here.</p>
 
-<link rel="alternate" type="application/rss+xml" href="http://gordonfontenot.com/feed.xml" />
-
-</head>
-
-<body>
-    <main>
-        <header>
-  <h2>
-    <a href="/about">
-      <span id="fname">gordon</span><span id="lname">fontenot</span>
-    </a>
-  </h2>
-</header>
-
-        <div id="content">
-          <h2 id="section">404</h2>
-<p>There doesn’t seem to be anything here.</p>
-<div class="figure">
-<img src="/images/excellent.gif" />
-
-</div>
-        </div>
-        <footer>
-  <p>
-    Powered by <a href="http://jaspervdj.be/hakyll">Hakyll</a>,
-    source on <a href="http://github.com/gfontenot/website-source">GitHub</a>.
-  </p>
-  <p id="webring">
-    Proud member of the <a href="https://hotlinewebring.club/">hotline webring</a>
-    (<a href="http://hotlinewebring.club/gfontenot/previous">previous</a>,
-    <a href="http://hotlinewebring.club/gfontenot/next">next</a>)
-  </p>
-</footer>
-
-    </main>
-</body>
-</html>
+<img src="{{ "/assets/images/excellent.gif" | relative_url }}" />

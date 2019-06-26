@@ -1,0 +1,18 @@
+<html lang="en">
+  {%- include head.html -%}
+  <body>
+    <main>
+      <header class="post-header">
+        <a href="/">home</a>
+        <h2>{{ page.title }}</h2>
+      </header>
+      <div id="content">
+        <article class="post-body">
+          <time>{{ page.date | date: "%b %d, %Y" }}</time>
+          {{ content }}
+        </article>
+      </div>
+      {%- include footer.html -%}
+    </main>
+  </body>
+</html>

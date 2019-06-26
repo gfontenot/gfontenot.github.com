@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<ul id="blog">
+  {%- for post in site.posts -%}
+  <li {%- if post.external_url %} class="external" {%- endif -%}>
+    <h3>
+      {% if post.external_url %}
+        <a href="{{ post.external_url }}">
+          {{ post.title | escape }}
+        </a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      {% endif %}
+    </h3>
+  </li>
+  {%- endfor -%}
+</ul>

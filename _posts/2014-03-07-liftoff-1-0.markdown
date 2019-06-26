@@ -1,0 +1,4 @@
+---
+title: "Liftoff 1.0"
+external_url: https://robots.thoughtbot.com/liftoff-10
+---

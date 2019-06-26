@@ -1,0 +1,56 @@
+.post-header a {
+  color: $light-gray;
+  font-size: 0.8em;
+}
+
+.post-body h2, h3 {
+  display: block;
+  padding-bottom: .5em;
+}
+
+.post-body ul, ol {
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+.post-body ul {
+  list-style-type: disc;
+}
+
+.post-body ol {
+  list-style-type: decimal;
+}
+
+.post-body time {
+  margin-bottom: 1em;
+  display: block;
+}
+
+.post-body > :last-child {
+  padding-bottom: 0;
+}
+
+.post-body .tags {
+  display: inline-block;
+  font-size: 0.9em
+}
+
+.footnoteRef sup:before {
+  content: "["
+}
+
+.footnoteRef sup:after {
+  content: "]"
+}
+
+.footnotes {
+  color: $gray;
+  font-size: .8em;
+}
+
+.footnotes hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

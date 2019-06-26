@@ -1,0 +1,22 @@
+title: "gordon fontenot"
+description: "developer"
+baseurl: "/"
+url: "https://gordonfontenot.com"
+markdown: kramdown
+
+permalink: /blog/:title
+
+author:
+  name: Gordon Fontenot
+  email: gordon@fonten.io
+
+exclude: ["README.md"]
+include: [".well-known"]
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
