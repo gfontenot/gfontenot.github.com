@@ -2,8 +2,124 @@
 ---
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
-@import "base";
-@import "header";
-@import "footer";
-@import "blog";
-@import "posts";
+
+$black: #333333;
+$off-white: #f2f2f2;
+$gray: #606060;
+$light-gray: #999999;
+$main-color: #eb6e1f;
+
+body {
+  color: $black;
+  background-color: $off-white;
+  font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', sans-serif;
+  border-top: 5px solid $main-color;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted $main-color;
+  color: $black;
+}
+
+a:hover {
+  color: $gray;
+}
+
+article {
+  font-size: 20px;
+}
+
+time {
+  color: $light-gray;
+  display: inline-block;
+  font-size: .8em;
+}
+
+sup {
+  font-size: .65em;
+}
+
+code {
+  font-family: 'Inconsolata', monospace;
+}
+
+footer {
+  border-top: solid 2px $main-color;
+  color: $light-gray;
+  padding-top: .3em;
+  padding-bottom: .3em;
+  font-size: .8em;
+}
+
+#main-header h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+#fname {
+  color: $black;
+}
+
+#lname {
+  color: $light-gray;
+}
+
+#content {
+  max-width: 720px;
+}
+
+#blog {
+  padding: 0;
+}
+
+#blog h3 {
+  display: inline;
+  font-weight: normal;
+}
+
+#blog a {
+  color: $gray;
+  border-bottom: none;
+}
+
+#blog li {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
+
+#blog li.external:after {
+  content: "";
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  background-image: url("/assets/images/external-link.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
+#post-header h1 {
+  margin-bottom: 10px;
+}
+
+#post-header a {
+  color: $light-gray;
+}
+
+.footnotes {
+  color: $gray;
+  font-size: .8em;
+}
